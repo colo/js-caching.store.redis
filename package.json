@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/colo/js-caching.store.redis#readme",
   "dependencies": {
+    "js-pipeline.output.redis": "git+https://github.com/colo/js-pipeline.output.redis.git",
     "mootools": "^1.5.2",
     "node-app": "git+https://github.com/colo/node-app.git",
     "redis": "^2.8.0"

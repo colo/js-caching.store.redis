@@ -14,9 +14,9 @@ let Output = require('js-pipeline.output.redis')
 
 const redis = require('redis')
 
-var debug = require('debug')('js-caching:Store:Redis');
-var debug_internals = require('debug')('js-caching:Store:Redis:Internals');
-var debug_events = require('debug')('js-caching:Store:Redis:Events');
+const debug = require('debug')('js-caching:Store:Redis'),
+      debug_internals = require('debug')('js-caching:Store:Redis:Internals'),
+      debug_events = require('debug')('js-caching:Store:Redis:Events')
 
 
 module.exports = {
